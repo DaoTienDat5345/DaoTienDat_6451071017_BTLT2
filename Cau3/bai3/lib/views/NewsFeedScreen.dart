@@ -28,13 +28,12 @@ class NewsFeedScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('News'),
+        title: const Text('News 6451071017'),
         backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(10.0),
         child: Column(
-          // Chuyển đổi danh sách dữ liệu thành danh sách Widget
           children: newsItems.map((item) => NewsCard(news: item)).toList(),
         ),
       ),

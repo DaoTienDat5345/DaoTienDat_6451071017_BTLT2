@@ -11,16 +11,16 @@ class CategoryMenuScreen extends StatefulWidget {
 class _CategoryMenuScreenState extends State<CategoryMenuScreen> {
   // Khởi tạo dữ liệu
   final List<CategoryModel> _categories = [
-    CategoryModel(header: 'Fruits', items: ['🍎 Apple', '🍌 Banana', '🍊 Orange']),
-    CategoryModel(header: 'Vegetables', items: ['🥦 Broccoli', '🥕 Carrot', '🥬 Lettuce']),
-    CategoryModel(header: 'Drinks', items: ['☕ Coffee', '🍵 Tea', '🥤 Soda']),
+    CategoryModel(header: 'Fruits', items: ['Apple', 'Banana', 'Orange']),
+    CategoryModel(header: 'Vegetables', items: ['Broccoli', 'Carrot', 'Lettuce']),
+    CategoryModel(header: 'Drinks', items: ['Coffee', 'Tea', 'Soda']),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Category Menu'),
+        title: const Text('Category Menu 6451071017'),
         backgroundColor: Colors.lightBlue,
       ),
       body: SingleChildScrollView(

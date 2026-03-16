@@ -19,7 +19,7 @@ class ProductGridScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        title: const Text('Cửa Hàng Thế Thao'),
+        title: const Text('Cửa Hàng Thế Thao 6451071017'),
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),

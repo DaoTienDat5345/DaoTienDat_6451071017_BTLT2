@@ -8,14 +8,14 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Giả định dữ liệu lấy từ Model
     final user = UserModel(
-      name: 'Nguyen Lan Huong',
+      name: '6451071017',
       email: 'lanhuong.nguyen@example.com',
       avatarUrl: 'https://i.pravatar.cc/300',
     );
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: const Text('Profile 6451071017'),
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),
